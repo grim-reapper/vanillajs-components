@@ -24,7 +24,7 @@ import { overlay } from 'vanillajs-components';
 ```
 ### Without NPM
 
-[comment]: <> (## <a target="_blank" href="https://github.com/EinsCMS/eins-modal/archive/refs/heads/master.zip">Download</a>)
+## <a target="_blank" href="https://github.com/grim-reapper/vanillajs-components/archive/refs/heads/main.zip">Download</a>
 
 
 ```html

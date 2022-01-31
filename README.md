@@ -3,11 +3,11 @@
 I created this JS library as an open-source project to provide beautiful alert box messages, overlay box and toaster made with HTML, CSS and JS only. Feel free to contribute with a pull request or suggestions.
 
 ## Alert Box
-![alt Confirm](src/dialog/confirm-two.png "Confirm")
+![alt Confirm](https://github.com/grim-reapper/vanillajs-components/blob/main/src/dialog/confirm-two.png "Confirm")
 ## Toast
-![alt Toast](src/toast/demo.png "Toast")
+![alt Toast](https://github.com/grim-reapper/vanillajs-components/blob/main/src/toast/demo.png "Toast")
 ## Overlay
-![alt Overlay](src/overlay/overlay.png "Overlay")
+![alt Overlay](https://github.com/grim-reapper/vanillajs-components/blob/main/src/overlay/overlay.png "Overlay")
 ## Installation
 ### With NPM
 
@@ -26,7 +26,7 @@ import { overlay,confirm,toast } from 'vanillajs-components';
 ```
 ### Without NPM
 
-[comment]: <> (## <a target="_blank" href="https://github.com/EinsCMS/eins-modal/archive/refs/heads/master.zip">Download</a>)
+## <a target="_blank" href="https://github.com/grim-reapper/vanillajs-components/archive/refs/heads/main.zip">Download</a>
 
 
 ```html

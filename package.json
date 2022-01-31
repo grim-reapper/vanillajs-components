@@ -1,10 +1,24 @@
 {
   "name": "vanillajs-components",
+  "description": "Simple to use modal / alert / dialog / popup / toast / overlay / notification. Created without any framework. No javascript knowledge required! Works on every browser and device! IE >= 9",
   "version": "1.0.0",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "unpkg": "dist/bundle.umd.js",
   "sideEffects": false,
+  "keywords": [
+    "ios",
+    "modal",
+    "alert",
+    "dialog",
+    "vanilla javascript",
+    "vanilla js",
+    "popup",
+    "prompt",
+    "confirm",
+    "toaster",
+    "notifications"
+  ],
   "files": [
     "dist/*"
   ],
@@ -31,5 +45,9 @@
     "rollup-plugin-terser": "^7.0.2",
     "vite": "^2.7.2",
     "vue": "^3.2.25"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grim-reapper/vanillajs-components.git"
   }
 }
