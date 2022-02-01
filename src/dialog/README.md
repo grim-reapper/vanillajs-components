@@ -33,10 +33,14 @@ import {confirm} from 'vanillajs-components';
 <head>
   <!-- In Head Tag -->
   <link rel="stylesheet" href="/path/to/dist/vanillajs-components.min.css">
+    // OR use cdn path
+    <link rel="stylesheet" href="https://unpkg.com/vanillajs-components@1.0.1/dist/vanillajs-components.min.css">
 </head>
 <body>
   <!-- End Of Body Tag -->
   <script src="/path/to/dist/bundle.iife.js"></script>
+    // or use cdn path
+    <script src="https://unpkg.com/vanillajs-components@1.0.1/dist/bundle.iife.js"></script>
 </body>
 ```
 ### Then in Script

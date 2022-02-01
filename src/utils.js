@@ -29,3 +29,5 @@ export const isEmpty = (str) => str === "";
 export const makeProxy = (obj, handler) => new Proxy(obj, handler)
 
 export const Uuid = () => Math.random().toString(36).substring(2, 9)
+
+export const isObject = o => Object.prototype.toString.call(o) === '[object Object]'

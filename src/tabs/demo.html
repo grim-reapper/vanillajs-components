@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>.tabs-header{font-size:25px;text-align:center;margin:3rem auto}.centering-layer{width:100%;max-width:800px;margin:2rem auto}.tabs-container{margin:2rem auto}.tabs-buttons{width:100%;display:inline-flex;overflow-x:auto;font-size:14px}.tabs-buttons__btn{background-color:transparent;outline:0;border:none;display:block;padding:1rem;cursor:pointer;transition:background-color .3s;border:1px solid #4ec6de;border-bottom:none;color:#333;white-space:nowrap}.tabs-buttons__btn:hover,.tabs-buttons__btn_active{color:#fff;background-color:#4ec6de}.tabs-buttons__btn:not(:last-child){margin-right:5px}.tabs-sections{perspective:300px;padding:10px 20px;border:2px solid #4ec6de}.tabs-sections__section{position:absolute;padding:10px 20px;line-height:1.4em;opacity:0;transform:rotateX(-20deg);transform-origin:top center;z-index:0;pointer-events:none}.tabs-sections__section_active{transform:rotateX(0);opacity:1;z-index:1;position:relative;pointer-events:inherit}@media screen and (min-width:640px){.tabs-buttons{width:auto;font-size:0}}</style>
+</head>
+<body>
+<section class="tabs-container">
+    <div class="tabs-buttons">
+        <button class="tabs-buttons__btn tabs-buttons__btn_active">HTML</button>
+        <button class="tabs-buttons__btn">CSS</button>
+    </div>
+
+    <div class="tabs-sections">
+        <div class="tabs-sections__section tabs-sections__section_active">
+            <p>Text</p>
+        </div>
+        <div class="tabs-sections__section">
+            <p>Another text</p>
+        </div>
+    </div>
+</section>
+<section class="tabs-container">
+    <div class="tabs-buttons">
+        <button class="tabs-buttons__btn tabs-buttons__btn_active">PHP</button>
+        <button class="tabs-buttons__btn">PYTHON</button>
+    </div>
+
+    <div class="tabs-sections">
+        <div class="tabs-sections__section tabs-sections__section_active">
+            <p>second text</p>
+        </div>
+        <div class="tabs-sections__section">
+            <p>Another text 2</p>
+        </div>
+    </div>
+</section>
+<script src="https://unpkg.com/vanillajs-components@1.0.1/dist/bundle.iife.js"></script>
+<script>
+    GR.tabs()
+</script>
+</body>
+</html>
